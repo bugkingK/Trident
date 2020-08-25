@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "Trident",
+    platforms: [.iOS(.v9)],
     products: [
         .library(
             name: "Trident",
